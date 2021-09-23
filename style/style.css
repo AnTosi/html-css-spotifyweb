@@ -16,6 +16,8 @@ aside {
     width: 300px;
     background-color: black;
     height: calc(100vh - 90px);
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 footer {
@@ -38,6 +40,77 @@ footer {
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
+.sp_between {
+    justify-content: space-between;
+}
+
+.grey_txt {
+    color: #A3A3A3;
+}
+
+.white_txt {
+    color: white;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sbold {
+    font-weight: 600;
+}
+/***************** /utilities ****************/
+
+
+/***************** side ****************/
+aside img {
+    height: 40px
+}
+
+aside .home img {
+    filter: brightness(0.7);
+    margin-right: 0.5rem;
+}
+
+aside img.cnt {
+    margin: auto;
+    text-align: center;
+}
+
+aside .home p {
+    margin-top: 0.5rem;
+}
+
+h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+aside .home div.flex {
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***************** siteheader ****************/
 
 
@@ -52,7 +125,3 @@ footer {
 
 
 /* debug */
-
-* {
-    color: white;
-}
