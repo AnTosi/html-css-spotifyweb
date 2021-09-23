@@ -16,8 +16,6 @@ aside {
     width: 300px;
     background-color: black;
     height: calc(100vh - 90px);
-    padding-top: 1rem;
-    padding-left: 1rem;
 }
 
 footer {
@@ -67,13 +65,31 @@ footer {
 
 
 /***************** side ****************/
-aside img {
-    height: 40px
+aside {
+    font-weight: 600;
+    color: #A3A3A3;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+aside img, i{
+    height: 30px;
+    margin-right: 0.5rem;
+    filter: brightness(0.7);
+}
+
+aside .img_cnt img {
+    height: 40px;
+    filter: brightness(1);
+}
+
+aside i {
+    font-size: 2rem;
+    color:white;
 }
 
 aside .home img {
-    filter: brightness(0.7);
-    margin-right: 0.5rem;
+     
 }
 
 aside img.cnt {
@@ -81,20 +97,35 @@ aside img.cnt {
     text-align: center;
 }
 
-aside .home p {
-    margin-top: 0.5rem;
+aside .home {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;   
 }
 
-h4 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+aside .home div:first-child {
+    border-left: 3px solid #ADFF2F;
+    margin-left: -1rem;
+    padding-left: 1rem;
 }
 
-aside .home div.flex {
+h3 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+aside .side_up div.flex {
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
+aside li {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+aside .install {
+    border-bottom: 1px solid #A3A3A3;
+}
 
 
 

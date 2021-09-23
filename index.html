@@ -7,11 +7,18 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <title>Spotify</title>
 </head>
 <body class="debug">
+    
+    <!-- tutto il sopra  -->
+    
     <main class="flex">
+
+        <!-- side -->
+
         <aside class="flex column sp_between al">
             <div class="side_up">
                 <div class="img_cnt">
@@ -19,20 +26,52 @@
                 </div>
 
                 <div class="home">
-                    <h4 class="white_txt flex">
-                        <img src="./img/home.svg" alt="icona casa"> <p>
+                    <div class="white_txt flex">
+                            <img src="./img/home.svg" alt="icona casa">
                             Home
-                        </p> 
-                    </h4>
-                    <div class="grey_txt sbold flex"><img src="./img/search.svg" alt="icona lente di ingrandimento"> Cerca</div>
-                    <div class="grey_txt sbold flex"><img src="./img/libreria.svg" alt="icona libreria"> La tua libreria</div>
+                    </div>
+                    <div class="grey_txt flex">
+                        <img src="./img/search.svg" alt="icona lente di ingrandimento"> Cerca
+                    </div>
+                    <div class="grey_txt flex">
+                        <img src="./img/libreria.svg" alt="icona libreria"> La tua libreria
+                    </div>
+                </div>
 
+                <div class="playlist">
+                    <h3 class="white_txt">PLAYLIST</h3>
+                    <div class="flex create_plist">
+                        <i class="fas fa-plus-square"></i>
+                        Crea Playlist
+                    </div>
+
+                    <div class="plists_list">
+                        <ul>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="side_user">
-
+                <div class="install flex">
+                    <img src="./img/download.svg" alt="download icon">
+                    Installa app
+                </div>
+                <div class="utente">
+                    <img src="./img/profile.svg" alt="profile icon">
+                    John Doe
+                </div>
             </div>
         </aside>
+
+        <!-- /side -->
+
         <div class="content">
             <div class="header">
                 "HEADER"
@@ -42,6 +81,8 @@
             </div>
         </div>
     </main>
+
+    <!-- /tutto il sopra  -->
     
     <footer>
         FOOTER
