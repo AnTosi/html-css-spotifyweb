@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/***************** structure ****************/
+/***************** structure ****************/
+
+.header {
+    background-color: #080B12;
+    height: 90px;
+}
+
+aside {
+    width: 300px;
+    background-color: black;
+    height: calc(100vh - 90px);
+}
+
+footer {
+    height: 90px;
+    background-color: #282828;
+    width: 100%;
+}
+
+.content {
+    width: calc(100% - 300px);
+    height: calc(100vh - 90px);
+}
+
+.brani {
+    background-color: #141922;
+    height: calc(100vh - 180px)
+}
+/***************** utilities ****************/
+.flex {
+    display: flex;
+}
+
+/***************** siteheader ****************/
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+
+* {
+    color: white;
+}
