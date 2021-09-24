@@ -197,17 +197,24 @@ aside ul {
 /* corpo */
 
 .content .brani {
-    padding: 1.2rem 0 0 1.2rem;
+    padding: 1rem 0 0 1rem;
 }
 
 .content .brani .testa {
-    font-weight: 600;    
+    font-weight: 600;
+    height: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 1.8rem;
+    font-size: 0.8rem;
 }
 
 .content .brani .testa div {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .content .brani .testa span {
@@ -226,12 +233,13 @@ aside ul {
 }
 
 .content .row {
-    margin-top: 2rem;
+    margin-top: 1.3rem;
     padding-bottom: 1rem;
 }
 
 .content h2 {
-    padding-bottom: 0.5rem;    
+    padding-bottom: 0.5rem;
+    font-size: 1.6rem;   
 }
 
 .content .img_cnt {
@@ -260,8 +268,11 @@ aside ul {
     margin-right: 15px;
 }
 .content .img_cnt:hover img {
-    cursor: pointer;
     filter: brightness(0.8);
+}
+
+.content .brano:hover {
+    cursor: pointer;
 }
 
 .content .hidden {
@@ -292,6 +303,12 @@ aside ul {
 .content .brano img.round {
     border-radius: 50%;
 }
+
+.brani p {
+    font-weight: 600;
+    font-size: 0.8rem
+}
+
 /***************** siteheader ****************/
 
 
