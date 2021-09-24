@@ -309,6 +309,29 @@ aside ul {
     font-size: 0.8rem
 }
 
+/************* /content ******************/
+
+div.header {
+    position: relative;
+}
+
+div.header div.button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 2rem;
+    color: white;
+    border: 1px solid white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+
+
 /***************** siteheader ****************/
 
 
