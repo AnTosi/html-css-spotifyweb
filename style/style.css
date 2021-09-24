@@ -30,7 +30,7 @@ footer {
 .content {
     width: calc(100% - 220px);
     height: 100vh;
-    overflow: hidden;
+    overflow-y: auto;
     background-color: #141922;
 }
 
@@ -227,10 +227,11 @@ aside ul {
 
 .content .row {
     margin-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .content h2 {
-    margin-bottom: 1.5rem;    
+    padding-bottom: 0.5rem;    
 }
 
 .content .img_cnt {
@@ -238,7 +239,6 @@ aside ul {
     position: relative;
     max-height: 180px;
     margin-bottom: 1rem;
-    margin-right: 15px;
 }
 
 .content .img_cnt img {
@@ -278,11 +278,19 @@ aside ul {
 
 .content h4 {
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
 }
 
 .content .song_txt p {
     font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.content .row>.flex {
+    margin-top: 1.5rem;
+}
+
+.content .brano img.round {
+    border-radius: 50%;
 }
 /***************** siteheader ****************/
 
