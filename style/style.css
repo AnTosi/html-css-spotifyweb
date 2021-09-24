@@ -175,8 +175,8 @@ aside div.side_user {
 }
 
 aside div.plists_list {
-    overflow: auto;
-    min-height: 220px;
+    overflow-y: auto;
+    height: 25vh;
 }
 
 aside .create_plist {
@@ -244,15 +244,13 @@ aside ul {
 }
 
 .content .img_cnt {
-    max-width: 180px;
+    width: 100%;
     position: relative;
-    max-height: 180px;
     margin-bottom: 1rem;
 }
 
 .content .img_cnt img {
-    max-width: 180px;
-    max-height: 180px;   
+    width: 100%;   
 }
 
 .content .brano .hidden i {
@@ -265,7 +263,7 @@ aside ul {
 }
 
 .content .brano {
-    max-width: 180px;
+    max-width: 15%;
     margin-right: 15px;
 }
 .content .img_cnt:hover img {
