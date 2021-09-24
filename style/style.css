@@ -13,7 +13,7 @@
 }
 
 aside {
-    width: 220px;
+    width: 230px;
     background-color: black;
     height: 100vh;
 }
@@ -28,7 +28,7 @@ footer {
 }
 
 .content {
-    width: calc(100% - 220px);
+    width: calc(100% - 230px);
     height: 100vh;
     overflow-y: auto;
     background-color: #141922;
@@ -85,6 +85,7 @@ aside {
     font-size: 0.8rem;
     position: relative;
     padding-top: 1rem;
+    padding-right: 1rem;
 }
 
 aside img, aside i{
@@ -333,7 +334,41 @@ div.header div.button {
 
 
 /***************** siteheader ****************/
+footer {
+    color: white;
+    font-weight: 600;
+}
 
+footer div.listening {
+    width: 16%;
+    padding-left: 0.75rem;
+    height: 100%;
+    align-items: center;
+}
+
+footer img {
+    height: 42px;
+}
+
+footer h5 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+footer div.song_name {
+    margin-left: 0.75rem;
+    margin-right: 2rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+
+footer i.fa-heart {
+    margin-right: 0.5rem;
+}
+
+/************************ /sitefooter ******************************** */
 
 
 
