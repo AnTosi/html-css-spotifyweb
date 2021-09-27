@@ -366,6 +366,78 @@ footer i.fa-heart {
     margin-right: 0.5rem;
 }
 
+footer div.player {
+    width: 68%;
+    height: 100%;
+}
+
+footer div.icons {
+    width: 100%;
+    font-size: 1.2rem;
+    height: 50%;
+}
+
+footer div.icons>div {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+footer .fa-play-circle {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 2rem;
+}
+
+footer div.bar.flex {
+    font-size: 0.6rem;
+    font-weight: 600;
+    height: 50%;
+    padding-bottom: 0.75rem;
+}
+
+footer .total .line {
+    display: inline-block;
+    height: 4px;
+    border-radius: 2px;
+}
+
+footer .total .grey {
+    background-color: #5A5A5A;
+    width: 100%;
+}
+
+footer .total .white {
+    width: 20%;
+    background-color: #C1C1C1;
+    position: absolute;
+    z-index: 3;
+    bottom: 2.4px;
+}
+
+footer div.bar>div {
+    width: 50%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    position: relative;
+}
+
+footer div.settings {
+    width: 16%;
+}
+footer div.settings>div{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer div.settings>div:last-child {
+    width: 50%;
+    position: relative;
+}
+
+footer div.settings div.total span.line.white {
+    position: absolute;
+    bottom: 4.4px;
+}
 /************************ /sitefooter ******************************** */
 
 
