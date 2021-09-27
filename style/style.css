@@ -338,8 +338,8 @@ div.header div.button {
     color: white;
     border: 1px solid white;
     font-weight: 700;
-    font-size: 0.8rem;
-    padding: 0.8rem 2rem 0.8rem 2rem;
+    font-size: 0.9rem;
+    padding: 0.7rem 2rem 0.7rem 2rem;
     overflow-x: hidden;
     white-space: nowrap;
     z-index: 5;
@@ -740,3 +740,32 @@ footer .total:hover .pomello {
     padding: 0.75rem;
 }
 
+.PaulKalkbrenner .header div.user.button {
+    border-style: none;
+    padding: 3px;
+}
+
+
+.PaulKalkbrenner .header img {
+    height: 32px;
+    width: 32px;
+    background-color: #333333;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.PaulKalkbrenner .header div.button {
+    position: static;
+    transform: translate(0, 0);
+    background-color: black;
+}
+
+.PaulKalkbrenner .header div.button.upgrade {
+    padding: 0rem 2rem 0rem 2rem;
+    line-height: 36px;
+    margin-right: 1rem;
+}
+.PaulKalkbrenner .header div.button:hover {
+    transform: scale(1.1);
+    position: static;
+}
