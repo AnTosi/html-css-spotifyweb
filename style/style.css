@@ -743,6 +743,7 @@ footer .total:hover .pomello {
 .PaulKalkbrenner .header div.user.button {
     border-style: none;
     padding: 3px;
+    padding-right: 1rem;
 }
 
 
@@ -758,13 +759,17 @@ footer .total:hover .pomello {
     position: static;
     transform: translate(0, 0);
     background-color: black;
+    margin-right: 2rem;
 }
 
 .PaulKalkbrenner .header div.button.upgrade {
     padding: 0rem 2rem 0rem 2rem;
     line-height: 36px;
     margin-right: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
+
 .PaulKalkbrenner .header div.button:hover {
     transform: scale(1.1);
     position: static;
