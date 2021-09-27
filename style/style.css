@@ -686,3 +686,57 @@ footer .total:hover .pomello {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
 }
+
+.PaulKalkbrenner .artist span {
+    color: white;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.PaulKalkbrenner .header .artist {
+    z-index: 7;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.PaulKalkbrenner .header {
+    background-color: #212121;
+}
+
+.PaulKalkbrenner .header span.circle {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+}
+
+.PaulKalkbrenner .header span.circle.green {
+    background-color: #1DB954;
+    height: 50px;
+    width: 50px;
+    padding:0.9rem;
+}
+
+.PaulKalkbrenner .header span:hover {
+    cursor: pointer;
+}
+
+.PaulKalkbrenner .header p {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.PaulKalkbrenner .content .song_txt p i {
+    font-size: 0.2rem;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+.PaulKalkbrenner .content .brano {
+    max-width: 11.5%;
+    background-color: #191919;
+    padding: 0.75rem;
+}
+
