@@ -283,6 +283,11 @@ aside ul {
 
 .content .hidden {
     display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 .content .img_cnt:hover .hidden {
@@ -595,4 +600,12 @@ aside .highlight:hover img {
 aside .highlight:hover i {
     color: white;
     filter: brightness(1);
+}
+
+footer .fa-play-circle:hover {
+    transform: scale(1.1);
+}
+
+footer i:hover {
+    cursor: pointer;
 }
