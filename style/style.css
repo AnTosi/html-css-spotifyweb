@@ -331,7 +331,7 @@ div.header {
 
 div.header div.button {
     position: absolute;
-    right: 5px;
+    right: 12px;
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 2rem;
@@ -608,4 +608,12 @@ footer .fa-play-circle:hover {
 
 footer i:hover {
     cursor: pointer;
+}
+
+div.header div.button:hover {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translate(0, -50%) scale(1.1);
 }
