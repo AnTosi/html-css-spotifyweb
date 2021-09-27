@@ -178,6 +178,7 @@ aside div.side_user {
     z-index: 2;
     padding-bottom: 1rem;
     padding-left: 1rem;
+    height: 74px;
 }
 
 aside div.plists_list {
@@ -561,10 +562,37 @@ footer div.settings div.total span.line.white {
 }
 
 
+@media screen and (max-height: 540px) {
+   .utente {
+       display: none;
+   }
+   aside div.side_user {
+       height: 30px;
+   }
+}
 
+@media screen and (max-height: 520px) {
+    aside div.install {
+        display: none;
+    }
+    
+}
 
+/********* fine media query **********/
 
+/* ******* effetti ************* */
 
+.highlight:hover {
+    cursor: pointer;
+    color: white;
+}
 
+aside .highlight:hover img {
+    color: white;
+    filter: brightness(1);
+}
 
-/* debug */
+aside .highlight:hover i {
+    color: white;
+    filter: brightness(1);
+}
