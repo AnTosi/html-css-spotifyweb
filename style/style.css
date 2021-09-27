@@ -338,10 +338,11 @@ footer {
 }
 
 footer div.listening {
-    width: 16%;
+    width:230px;
     padding-left: 0.75rem;
     height: 100%;
     align-items: center;
+    flex-shrink: 1;
 }
 
 footer img {
@@ -367,8 +368,9 @@ footer i.fa-heart {
 }
 
 footer div.player {
-    width: 68%;
+    flex-shrink: 2;
     height: 100%;
+    width: 68%;
 }
 
 footer div.icons {
@@ -422,8 +424,10 @@ footer div.bar>div {
 }
 
 footer div.settings {
-    width: 16%;
+    width: 230px;
+    flex-shrink: 1;
 }
+
 footer div.settings>div{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -441,7 +445,10 @@ footer div.settings div.total span.line.white {
 /************************ /sitefooter ******************************** */
 
 
-
+/************** media query ****************************/
+@media screen and (max-width: 768px) {
+    
+}
 
 
 
