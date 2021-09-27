@@ -145,14 +145,19 @@ aside li {
 aside .install {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #A3A3A3;
-    margin-left: -5px;
+    text-align: center;
+}
+
+aside .install img {
+    height: 1rem;
+
 }
 
 aside div.utente img {
     background-color: #A3A3A4;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: inline-block;
     filter: brightness(1);
 }
@@ -353,13 +358,13 @@ footer h5 {
     margin-top: 0;
     margin-bottom: 0px;
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 footer div.song_name {
     margin-left: 0.75rem;
-    margin-right: 2rem;
-    font-size: 0.7rem;
+    margin-right: 14%;
+    font-size: 0.6rem;
     white-space: nowrap;
 }
 
@@ -375,7 +380,7 @@ footer div.player {
 
 footer div.icons {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 50%;
 }
 
@@ -387,7 +392,7 @@ footer div.icons>div {
 footer .fa-play-circle {
     margin-left: 4px;
     margin-right: 4px;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 footer div.bar.flex {
@@ -436,6 +441,7 @@ footer div.settings>div{
 footer div.settings>div:last-child {
     width: 50%;
     position: relative;
+    margin-right: 0.75rem;
 }
 
 footer div.settings div.total span.line.white {
@@ -446,7 +452,106 @@ footer div.settings div.total span.line.white {
 
 
 /************** media query ****************************/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 890px) {
+    .content .brani .row>div.flex{
+        flex-wrap: wrap;
+    }
+    .content .brani .row .brano {
+        min-width: 60px;
+    }
+
+    .content .brano {
+        max-width: 20%;
+    }
+
+    .content .brani .testa {
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content .brano {
+        max-width: 45%;
+    }
+
+    .content .brani .testa div {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    aside {
+        width: 50px;
+        padding-right: 0.6rem;
+        padding-left: 0.6rem
+    }
+
+    .content {
+        width: calc(100% - 50px);
+    }
+    .playlist {
+        display: none;
+    }
+
+    aside .home div:first-child {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    aside .img_cnt {
+        padding-left: 0;
+    }
+
+    aside .home > div {
+        padding-left: 0;
+    }
+
+    aside .img_cnt img {
+        height: 30px;
+    }
+
+    aside div.side_user {
+        padding-left: 0;
+    }
+
+    aside span {
+        display: none;
+    }
+
+    aside .install {
+        margin-left: 0;
+    }
+
+    aside img {
+        margin: auto;
+    }
+
+    aside .install {
+        border-bottom: none;
+    }
+    
+    footer img {
+        height: 36px;
+    }
+
+    footer div.bar>div {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    footer p {
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer div.settings {
+        flex-wrap: wrap;
+    }
     
 }
 
