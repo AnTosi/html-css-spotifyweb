@@ -774,3 +774,19 @@ footer .total:hover .pomello {
     transform: scale(1.1);
     position: static;
 }
+
+.PaulKalkbrenner div.title_cnt span {
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #A3A3A3;
+}
+
+.PaulKalkbrenner div.title_cnt {
+    align-items: flex-end;
+}
+
+.PaulKalkbrenner div.title_cnt span:hover {
+    cursor: pointer;
+    color: white;
+}
