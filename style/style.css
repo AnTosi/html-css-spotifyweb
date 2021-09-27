@@ -459,6 +459,22 @@ footer div.settings div.total span.line.white {
     position: absolute;
     bottom: 4px;
 }
+
+footer .pomello {
+    display: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position:absolute;
+    bottom: -3px;
+    left:20%;
+    transform: translate(-50%, 0);
+}
+
+footer .settings .total .pomello {
+    bottom: -1.5px;
+}
 /************************ /sitefooter ******************************** */
 
 
@@ -616,4 +632,18 @@ div.header div.button:hover {
     right: 1rem;
     top: 50%;
     transform: translate(0, -50%) scale(1.1);
+}
+
+
+footer .total:hover {
+    cursor: pointer;
+}
+
+footer .total:hover .white {
+    background-color: rgb(146, 216, 55);
+}
+
+footer .total:hover .pomello {
+    display: inline-block;
+    z-index: 6;
 }
