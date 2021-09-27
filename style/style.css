@@ -599,6 +599,30 @@ footer .settings .total .pomello {
     
 }
 
+@media screen and (min-width: 1441px) {
+    aside {
+        font-size: 1rem;
+    }
+    aside .home > div {
+        padding-bottom: 0.75rem;
+    }
+
+    aside li {
+        margin-top: 1.2rem;
+    }
+
+    aside div.utente {
+        font-size: 1.2rem;
+    }
+
+    footer div.song_name {
+        font-size: 0.8rem;
+    }
+
+    footer h5 {
+        font-size: 1rem;
+    }
+}
 /********* fine media query **********/
 
 /* ******* effetti ************* */
@@ -646,4 +670,19 @@ footer .total:hover .white {
 footer .total:hover .pomello {
     display: inline-block;
     z-index: 6;
+}
+
+
+/******************Paul Kalkbrenner***************/
+.PaulKalkbrenner aside .fa-gratipay {
+    color: violet;
+}
+
+.PaulKalkbrenner aside .preferiti:hover .fa-gratipay {
+    color: hotpink;
+} 
+
+.PaulKalkbrenner aside .preferiti {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
